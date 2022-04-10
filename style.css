@@ -35,6 +35,7 @@ html {
 .material-icons{
   display: inline-flex;
   vertical-align:bottom;
+  color: var(--green);
 }
 
 /* header */
