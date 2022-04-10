@@ -32,6 +32,11 @@ html {
   background-color: var(--dark-navy);
 }
 
+.material-icons{
+  display: inline-flex;
+  vertical-align:bottom;
+}
+
 /* header */
 
 .header {
@@ -286,6 +291,7 @@ body {
 .contentExp {
     margin: 20px 0px 0px 20px;
     font-size: var(--f-xl);
+    line-height: 1.6;
 }
 
 .contentExp label{
@@ -294,7 +300,8 @@ body {
 }
 
 .contentExp p{
-    vertical-align: middle
+    vertical-align: middle;
+    display:inline;
 }
 
 .c4 {
