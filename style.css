@@ -67,14 +67,14 @@ html {
     color: var(--green);
 }
   
-.header img {
-    display: block;
-    float: left;
-    padding: 10px 20px;
-    text-decoration: none;
-    width: 40px;
-    height: 40px;
-    color: var(--green);
+.header img{
+  display: block;
+  float: left;
+  padding: 10px 20px;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  color: var(--green);
 }
   
 /* menu */
@@ -278,10 +278,19 @@ body {
 }
 
 .contentAbout .contentAbout--right img{
-    width: 300px;
-    margin-top: 40px;
-    margin-left: 40px;
+  width: 300px;
+  margin-top: 40px;
+  margin-left: 40px;
+    filter: grayscale(100%);
 }
+
+.contentAbout .contentAbout--right img:hover{
+  width: 330px;
+  margin-top: 30px;
+  margin-left: 50px;
+  filter: grayscale(0%);
+}
+
 .c3 {
     width: 100%;
     min-width: 150px;
